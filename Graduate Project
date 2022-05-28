@@ -123,6 +123,7 @@ class Pencere(QtWidgets.QWidget):
 
             self.yazi_alani.setText("Hoş Geldiniz.")
             self.close()
+            self.pencere4 = Language()
 
 
 class Pencere2(QtWidgets.QWidget):
@@ -517,7 +518,6 @@ class proje_eee():
 if __name__ == '__main__':
     uygulama = QtWidgets.QApplication(sys.argv)
 
-    pencere4 = Language()
     pencere = Pencere()
     pencere2 = Pencere2()
     pencere3 = Pencere3()
