@@ -378,7 +378,6 @@ class proje_eee():
 
         super().__init__()
         self.run()
-        self.audio()
 
 
     def rescaleframe(self,frame,scale):   #Çerçeve büyüklüğü ayarlama
